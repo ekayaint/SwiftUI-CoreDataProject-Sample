@@ -11,6 +11,8 @@
 		49AF9B632AD85067009F6404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9B622AD85067009F6404 /* ContentView.swift */; };
 		49AF9B652AD85069009F6404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AF9B642AD85069009F6404 /* Assets.xcassets */; };
 		49AF9B682AD85069009F6404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AF9B672AD85069009F6404 /* Preview Assets.xcassets */; };
+		49AF9B702AD850BB009F6404 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9B6F2AD850BB009F6404 /* DataController.swift */; };
+		49AF9B732AD85135009F6404 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9B712AD85135009F6404 /* CoreDataProject.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		49AF9B622AD85067009F6404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49AF9B642AD85069009F6404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49AF9B672AD85069009F6404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49AF9B6F2AD850BB009F6404 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		49AF9B722AD85135009F6404 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		49AF9B5F2AD85067009F6404 /* SwiftUI-CoreDataProject-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				49AF9B6E2AD850A2009F6404 /* Views */,
 				49AF9B602AD85067009F6404 /* SwiftUI_CoreDataProject_SampleApp.swift */,
-				49AF9B622AD85067009F6404 /* ContentView.swift */,
 				49AF9B642AD85069009F6404 /* Assets.xcassets */,
 				49AF9B662AD85069009F6404 /* Preview Content */,
+				49AF9B6F2AD850BB009F6404 /* DataController.swift */,
+				49AF9B712AD85135009F6404 /* CoreDataProject.xcdatamodeld */,
 			);
 			path = "SwiftUI-CoreDataProject-Sample";
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				49AF9B672AD85069009F6404 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49AF9B6E2AD850A2009F6404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49AF9B622AD85067009F6404 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49AF9B632AD85067009F6404 /* ContentView.swift in Sources */,
+				49AF9B702AD850BB009F6404 /* DataController.swift in Sources */,
+				49AF9B732AD85135009F6404 /* CoreDataProject.xcdatamodeld in Sources */,
 				49AF9B612AD85067009F6404 /* SwiftUI_CoreDataProject_SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49AF9B712AD85135009F6404 /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49AF9B722AD85135009F6404 /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 49AF9B722AD85135009F6404 /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 49AF9B552AD85067009F6404 /* Project object */;
 }
